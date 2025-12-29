@@ -1,1 +1,7 @@
 /* Add CSS Styling */
+.num1,
+.num3,
+.num5 {
+    background-color: #f89fad;
+    font-family: Verdana, "DejaVu Sans", serif;
+}
