@@ -2,14 +2,14 @@
 .click1 {
     background-color: #000000;
     color: #ffffff;
-    padding: 10;
+    
 }
 
 .click2 {
     background-color: rgb(255, 255, 0);
 }
 
-.adjust.font.size {
+.adjust-font-size {
     font-size:  28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
 }
