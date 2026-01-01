@@ -2,8 +2,15 @@
 * ::before,
 * ::after {
   box-sizing: border-box;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
 }
+
 
 body {
   background: #eee;
@@ -14,26 +21,26 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
-  
+  padding: 10px 5px;
 }
 
 .title {
   background: #e3f4ff;
   margin: 10px 5px 5px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .content {
   background: #e3f4ff;
   margin: 10px 5px 5px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
   text-align: center;
   margin: 10px 5px 5px;
-  padding: 20px;
+  padding: 10px;
   
 }
 
@@ -41,5 +48,6 @@ button {
   background: white;
   border: 1px solid #eee;
   display: block;
+  padding: 10px 20px;
   margin: auto;
 }
