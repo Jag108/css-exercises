@@ -58,16 +58,10 @@ ul {
 
 }
 
-.left-header {
+.left-header, .right-header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 16px;
 }
 
-.right-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 16px;
-}
