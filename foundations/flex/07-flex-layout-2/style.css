@@ -25,7 +25,7 @@ body {
   color: darkmagenta;
 
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 }
 
@@ -33,19 +33,47 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
+
+  flex: 0 0 auto;
+}
+
+ul, a {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  
+  padding: 24px;
+  width: 300px;
+  flex: 1 1 auto;
+
 }
 
 .container {
   display: flex;
+  flex: 1;
 }
 
 .content-container {
   display: flex;
-  flex-flow: column wrap;
+  flex-wrap:  wrap;
+  padding: 48px;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 20px;
+  flex: 1;
 }
