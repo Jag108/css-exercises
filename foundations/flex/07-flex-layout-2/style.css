@@ -58,7 +58,7 @@ li {
   border-radius: 4px;
   
   padding: 24px;
-  width: 300px;
+  max-width: 200px;
   flex: 1 1 auto;
 
 }
@@ -73,7 +73,7 @@ li {
   flex-wrap:  wrap;
   padding: 48px;
   justify-content: flex-start;
-  align-content: center;
+  /* align-content: center; */
   gap: 20px;
   flex: 1;
 }
